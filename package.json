@@ -1,6 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
+  "homepage": "https://safeeda03.github.io/SPA/",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
