@@ -1,21 +1,13 @@
 {
-  "name": "react",
+  "name": "spa",
   "version": "1.0.0",
+  "private": true,
   "homepage": "https://safeeda03.github.io/SPA/",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0",
-    "bootstrap": "5.3.8"
-  },
-  "devDependencies": {
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
-    "loader-utils": "3.2.1",
-    "typescript": "5.7.2"
+    "bootstrap": "5.3.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,10 +15,16 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
